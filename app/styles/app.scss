@@ -1,0 +1,13 @@
+@import "base/variables";
+
+// load foundation library
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+
+// @import "folder/file"; => leave off `_` and `.extension`
+
+@import "components/navigation";
+@import "components/clock";
+@import "components/controls";
+@import "components/page-title";
